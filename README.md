@@ -12,9 +12,23 @@
         * IN6ADDR_ANY_INIT: 表示任意 IPv6 地址。
         * IPPROTO_TCP、IPPROTO_UDP 等:表示 TCP 和 UDP 协议。
         * 网络字节序和主机字节序转换函数: htonl()、htons()、ntohl()、ntohs()
+* TCP,IP,Ether结构体
+    * linux/if_ether.h
+    * netinet/ip.h
+    * netinet/tcp.h
+
+
+## pcap filter
+1. https://ivanzz1001.github.io/records/post/linux/2017/10/24/linux-pcap-filter
+1. https://www.wireshark.org/docs/wsug_html_chunked/ChCapCaptureFilterSection.html
+1. https://www.tcpdump.org/manpages/pcap-filter.7.html
+1. https://wiki.wireshark.org/CaptureFilters
 
 
 ### 参考资料
 1. https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/contents.html
 1. socket编程中需要用到的头文件: https://www.cnblogs.com/pengyingh/articles/2355732.html
 1. 网络编程中常用的头文件: https://zhuanlan.zhihu.com/p/684200690
+1. https://qbsuranalang.gitbooks.io/network-packet-programming/content/
+1. https://www.devdungeon.com/content/using-libpcap-c
+1. https://www.opensourceforu.com/2011/02/capturing-packets-c-program-libpcap/
