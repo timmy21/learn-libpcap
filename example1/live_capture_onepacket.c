@@ -21,14 +21,13 @@ int main(int argc, char *argv[])
     pcap_t *handle;
     const unsigned char *packet;
     struct pcap_pkthdr packet_header;
-    int packet_count_limit = 1;
     int timeout_limit = 10000; /* milliseconds */
 
     /* Open device for live capture */
     handle = pcap_open_live(
         device,
         BUFSIZ,
-        packet_count_limit,
+        1,
         timeout_limit,
         error_buffer);
 

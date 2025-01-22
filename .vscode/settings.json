@@ -4,6 +4,10 @@
         "iostream": "cpp",
         "if_ether.h": "c",
         "ip.h": "c",
-        "tcp.h": "c"
+        "tcp.h": "c",
+        "stdio.h": "c",
+        "types.h": "c",
+        "in.h": "c",
+        "cstring": "c"
     },
 }

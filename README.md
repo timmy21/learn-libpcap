@@ -32,3 +32,5 @@
 1. https://qbsuranalang.gitbooks.io/network-packet-programming/content/
 1. https://www.devdungeon.com/content/using-libpcap-c
 1. https://www.opensourceforu.com/2011/02/capturing-packets-c-program-libpcap/
+1. pcap文件格式: https://www.cnblogs.com/studywithallofyou/p/17137325.html
+1. pcapng文件格式: https://pcapng.com/
