@@ -8,6 +8,7 @@
         "stdio.h": "c",
         "types.h": "c",
         "in.h": "c",
-        "cstring": "c"
+        "cstring": "c",
+        "ethernet.h": "c"
     },
 }
